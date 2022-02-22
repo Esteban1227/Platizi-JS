@@ -76,8 +76,8 @@ function diametroDelCirculo(radioDelCirculo){
 } 
 
 function perimetroDelCirculo(radioDelCirculo){
-    const    diametroDelCirculo = diametroDelCirculo(radioDelCirculo);
-    return diametroDelCirculo * pI ;
+    const    diametroCirculo = diametroDelCirculo(radioDelCirculo);
+    return diametroCirculo * pI ;
 }
 
 function areaDelCirculo(radioDelCirculo){
